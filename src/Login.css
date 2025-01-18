@@ -1,0 +1,79 @@
+/* Basic container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/036/054/170/small_2x/ai-generated-telenews-news-studio-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  /* Basic form styling */
+  .login-form {
+    background: #fff; /* Solid white background */
+    padding: 40px;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    width: 400px; /* Adjust the width of the form */
+    max-width: 90%; /* Ensure the form is responsive */
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .login-form h2 {
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Basic font */
+    margin-bottom: 25px; /* Spacing between the title and input fields */
+    font-size: 24px; /* Larger font for the title */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Input field styling */
+  .login-form input {
+    width: 100%;
+    padding: 12px; /* Increased padding for inputs */
+    margin: 15px 0; /* Spacing between input fields */
+    border: 1px solid #ccc; /* Basic border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .login-form button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #4caf50; /* Green button */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    color: white;
+    font-size: 18px; /* Larger font for button */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .login-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Paragraph text for the message */
+  .login-form p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Link styling */
+  .login-form a {
+    color: #4caf50; /* Green link */
+    text-decoration: none;
+  }
+  
+  /* Link hover effect */
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

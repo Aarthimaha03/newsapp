@@ -1,0 +1,85 @@
+/* Basic container styling */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Takes up the full viewport height */
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/036/054/170/small_2x/ai-generated-telenews-news-studio-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* Form styling with reasonable input field size */
+.register-form {
+    background: #fff; /* Solid white background */
+    padding: 30px; /* Adjusted padding for a smaller form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    width: 400px; /* Adjusted width for a more compact form */
+    max-width: 90%; /* Ensures the form doesn't overflow on smaller screens */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Header styling */
+.register-form h2 {
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Basic font */
+    margin-bottom: 20px; /* Margin between the title and the inputs */
+    font-size: 24px; /* Slightly larger text */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Input field styling */
+.register-form input {
+    width: 100%; /* 100% width within the form */
+    max-width: 350px; /* Max width to prevent excessive stretching */
+    padding: 10px; /* Moderate padding for a comfortable input field */
+    margin: 10px 0; /* Margin for spacing between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Comfortable font size */
+    box-sizing: border-box; /* Ensure padding does not affect the width */
+}
+
+/* Button styling */
+.register-form button {
+    width: 100%; /* 100% width within the form */
+    max-width: 350px; /* Matching max width with inputs */
+    padding: 12px; /* Padding for the button */
+    background-color: #4caf50; /* Green button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Button hover effect */
+.register-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Paragraph text for links */
+.register-form p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Link styling */
+.register-form a {
+    color: #4caf50; /* Green link */
+    text-decoration: none;
+}
+
+/* Link hover effect */
+.register-form a:hover {
+    text-decoration: underline;
+}
